@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const JOKE =
-  'I asked my coding agent to keep the change small, so it did the whole rewrite in one line.';
+  "My agent's tests are thorough: they mock the database, the network, the clock and, finally, the function under test.";
 
 const dir = process.env.MAKEFUN_OUTPUT_DIR || '/output';
 mkdirSync(dir, { recursive: true });
